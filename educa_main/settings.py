@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(os.path.join(__file__
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = 'django-insecure-hh%0laxy%+%ov=!*34^*o^5c4l!mr$25zcphe+_(v-0k*0^alh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -85,11 +85,11 @@ WSGI_APPLICATION = 'educa_main.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER'),
-        'PASSWORD': os.getenv('DB_PASSWORD'),
-        'HOST': os.getenv('DB_HOST'),
-        'PORT': os.getenv('DB_PORT'),
+        'NAME': 'neondb',
+        'USER': 'YarKoniukhov',
+        'PASSWORD': '9Aah3njDOKVz',
+        'HOST': 'ep-wispy-surf-975471.eu-central-1.aws.neon.tech',
+        'PORT': '5432',
     }
 }
 
