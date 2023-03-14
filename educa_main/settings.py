@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'educa_main.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'neondb',
-        'USER': 'YarKoniukhov',
-        'PASSWORD': '9Aah3njDOKVz',
-        'HOST': 'ep-wispy-surf-975471.eu-central-1.aws.neon.tech',
+        'NAME': 'DB_NAME',
+        'USER': 'YOU_NICNAME',
+        'PASSWORD': 'YOU_PASSWORD',
+        'HOST': 'YOU_HOSTT',
         'PORT': '5432',
     }
 }
